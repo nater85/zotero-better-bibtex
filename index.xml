@@ -1,175 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Better BibTeX for Zotero</title>
-    <link>/zotero-better-bibtex/</link>
-    <description>Recent content on Better BibTeX for Zotero</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="/zotero-better-bibtex/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <link>/zotero-better-bibtex/index.html</link>
+    <description>Make Zotero more useful for us LaTeX holdouts</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/zotero-better-bibtex/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Automatic export</title>
-      <link>/zotero-better-bibtex/exporting/auto/</link>
+      <title>Installation</title>
+      <link>/zotero-better-bibtex/installation/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/exporting/auto/</guid>
-      <description>When exporting using BBT you will be offered a new export option: Keep updated. Checking this option registers the export for automation; any changes to the collection or library you exported after you&amp;rsquo;ve completed the current export will trigger an automatic re-export to update the bib file. You can review/remove exports from the BBT preferences. While I&amp;rsquo;ve gone to some lengths to make sure performance is OK, don&amp;rsquo;t go overboard with the number of auto-exports you have going.</description>
+      <guid>/zotero-better-bibtex/installation/index.html</guid>
+      <description>Install by downloading the latest release – if you use Firefox, make sure to right-click and save the XPI file, not just clicking it – and then in Zotero:&#xA;In the main menu go to Tools &gt; Add-ons Select ‘Plugins’ Click on the gear in the top-right corner and choose ‘Install Add-on From File…’ Choose .xpi that you’ve just downloaded, click ‘Install’ If you’re using Zotero 6, restart Zotero. Installation in Zotero 7 requires no restart. After the initial installation, the plugin will auto-update to newer releases, so you should need to perform the process described here only once.</description>
     </item>
-    
     <item>
-      <title>Pull export</title>
-      <link>/zotero-better-bibtex/exporting/pull/</link>
+      <title>Exporting items</title>
+      <link>/zotero-better-bibtex/exporting/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/exporting/pull/</guid>
-      <description>You can fetch your bibliography on the url http://127.0.0.1:23119/better-bibtex/collection?`[collectionID]`.`[format]`, where collectionID is:
- the ID you get by right-clicking your collection and selecting &amp;ldquo;Show collection key&amp;rdquo; the path &amp;ldquo;/[library id]/full/path/to/collection&amp;rdquo; (the library id is the first number from the key you get in the option above; it&amp;rsquo;s always &amp;lsquo;0&amp;rsquo; for your personal library)  or any multiple of those, separated by a &amp;lsquo;+&amp;rsquo; sign.
-The format is either &amp;lsquo;bibtex&amp;rsquo; or &amp;lsquo;biblatex&amp;rsquo;, and determines the translator used for export.</description>
+      <guid>/zotero-better-bibtex/exporting/index.html</guid>
+      <description>Better BibTex adds a couple of export formats to Zotero’s export dialog and several ways to improve export for plaintext-based authoring. The Better BibTeX configuration pane can be found under the regular Zotero preferences pane, tab ‘Better BibTeX’ where you can tweak the exports, such as&#xA;Omitting fields from exports to slim down your bib files. Configuring how citation keys are generated. And really a ton more. Additionally you can automate exporting (parts of) your library either using auto-export or pull export.</description>
     </item>
-    
     <item>
-      <title>Scripting</title>
-      <link>/zotero-better-bibtex/exporting/scripting/</link>
+      <title>Citation Keys</title>
+      <link>/zotero-better-bibtex/citing/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/exporting/scripting/</guid>
-      <description>You wanted customized&amp;hellip; You got customized. If you go into the Advanced tab of the Better BibTeX preferences you will find a text box (empty by default) where you can edit a javascript snippet which will be executed for each reference generated in the Bib(La)TeX exporter. In this code, you have access to the reference just before it will be written out and cached. There is an API to do this, and it&amp;rsquo;s fairly stable, but usually you can just open a new issue and ask me to write it, and I&amp;rsquo;ll add it here (it&amp;rsquo;s how the examples got here).</description>
+      <guid>/zotero-better-bibtex/citing/index.html</guid>
+      <description>Generating citekeys for your items The BibTeX citations keys generated by the standard Zotero exporters are always generated at time of export, using an algorithm that usually generates unique keys. For serious LaTeX users, “usually” presents the following problems:&#xA;If a non-unique key is generated, which one gets postfixed with a distinguishing character is essentially non-deterministic. The keys are always auto-generated, so if you correct a typo in the author name or title, the key will change You can’t see the citation keys until you export them For a LaTeX author, the citation keys have their own meaning, fully separate from the other entry data, even if people usually pick a naming scheme related to them. As the citation key is the piece of data that connects your bibliography, this is a piece of data you want to have control over. BBT offers you this control:</description>
     </item>
-    
     <item>
-      <title>Advanced</title>
-      <link>/zotero-better-bibtex/exporting/advanced/</link>
+      <title>Support</title>
+      <link>/zotero-better-bibtex/support/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/exporting/advanced/</guid>
-      <description>You are a hardcore LaTeX user If you&amp;rsquo;d really just rather hand-code your LaTeX constructs, BBT makes that possible:
- You can add literal LaTeX anywhere in your reference by surrounding it with &amp;lt;script&amp;gt;...&amp;lt;/script&amp;gt; (&amp;lt;pre&amp;gt;...&amp;lt;/pre&amp;gt; will also work for historical reasons) markers. BBT will convert to/from unicode and (un)escape where required but will pass whatever is enclosed in the pre tags unchanged. An entry tagged with #LaTeX (case-sensitive!) will have all fields exported as if they&amp;rsquo;re wrapped in &amp;lt;script&amp;gt;.</description>
+      <guid>/zotero-better-bibtex/support/index.html</guid>
+      <description>Before all else, thank you for taking the time for submitting an issue, and I’m sorry that I’ve probably interrupted your flow.&#xA;Your report matters to me. I love hearing my software helps you, and it pains me to know that things aren’t working for you.&#xA;If you have any questions on the use of the plugin, please do not hesitate to file a GitHub issue to ask for help.</description>
     </item>
-    
-    <item>
-      <title>Citation keys</title>
-      <link>/zotero-better-bibtex/installation/preferences/citation-keys/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/installation/preferences/citation-keys/</guid>
-      <description>Citation key format default: [auth:lower][shorttitle3_3][year]
-Set the pattern used to generate citation keys. The format of the keys is documented here.
-Force citation key to plain text default: yes
-If you have deviated from the default citation key format pattern by specifying your own, you may wind up with non-ASCII characters in your citation keys. You can prevent that using the fold function at the appropriate place in your pattern, but checking this checkbox will just apply fold to all your keys.</description>
-    </item>
-    
-    <item>
-      <title>Export</title>
-      <link>/zotero-better-bibtex/installation/preferences/export/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/installation/preferences/export/</guid>
-      <description>Export unicode as plain-text latex commands (recommended) default: yes
-BibTeX has really spotty Unicode support, so you generally want this on. It will translate things like accented characters to their equivalent LaTeX constructs on export.
-Disregard name prefixes when sorting default: no
-Name handling is a lot more complex than I had ever thought it to be. A lot more complex. BibTeX has really limited ways of dealing with names with particles (van, von, de, etc).</description>
-    </item>
-    
-    <item>
-      <title>Advanced</title>
-      <link>/zotero-better-bibtex/installation/preferences/advanced/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/installation/preferences/advanced/</guid>
-      <description>Deterministically order references and fields; primarily for version control. default: no
-When on, BBT will deterministically order references on export. This is primarily interesting if you keep the exported file under some kind of version control. Comes at performance and memory consumption cost.
-postscript default: &amp;lt;not set&amp;gt;
-Snippet of javascript to run after each reference generation.
-Expand the @string vars below during imports default: yes
-When enabled, BBT will prepend the @strings section below to all Bib(La)TeX imports and will expand the strings during export.</description>
-    </item>
-    
-    <item>
-      <title>Hidden preferences</title>
-      <link>/zotero-better-bibtex/installation/preferences/hidden-preferences/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/installation/preferences/hidden-preferences/</guid>
-      <description>The following settings are not exposed in the UI, but can be found under Preferences/Advanced/Config editor.
-All are prefixed with extensions.zotero.translators.better-bibtex. in the table you will find there
-ascii default: &amp;lt;not set&amp;gt;
-If you have unicode turned on you can still selectively replace some characters to plain-text commands; any characters entered here will always be replaced by their LaTeX-command counterparts.
-autoExportDelay default: 1
-If you have auto-exports set up, BBT will wait this many seconds before actually kicking off the exports to buffer multiple changes in quick succession setting off an unreasonable number of auto-exports.</description>
-    </item>
-    
-    <item>
-      <title>Bundled translators</title>
-      <link>/zotero-better-bibtex/installation/bundled-translators/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/installation/bundled-translators/</guid>
-      <description>Better BibTeX bundles 5 translators you might care about:
-Export These translators are supported by the auto-export functionality built into Better BibTeX:
- Better BibLaTeX exports references in BibLaTeX format (but better, natch) Better BibTeX exports references in BibTeX format Better CSL JSON exports references in pandoc-compatible CSL-JSON format, with added citation keys and parsing of metadata Better CSL YAML exports the same as the Better CSL JSON exporter, but in YAML format Collected Notes exports just notes &amp;ndash; standalone notes and notes attached to references, not the extra field &amp;ndash; to HTML.</description>
-    </item>
-    
-    <item>
-      <title>AUX Scanner</title>
-      <link>/zotero-better-bibtex/citing/aux-scanner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/citing/aux-scanner/</guid>
-      <description>You can populate a reference collection, or tag items in your library, from an existing paper by scanning the aux file generated by bibtex. AUX Scanning can be triggered from the Tools menu (for tagging the cited items) or by right-clicking a collection (for adding them to a collection). The scanner will read your AUX files and will put references you cited in the associated LaTeX document into the current collection.</description>
-    </item>
-    
-    <item>
-      <title>Cite as you Write</title>
-      <link>/zotero-better-bibtex/citing/cayw/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/citing/cayw/</guid>
-      <description>PSA: as of Zotero 5.0.71, access to the CAYW URL will no longer work from the browser for security reasons; curl and other programmatic such as from editors access will work.
-Good news for TeXnicians and those down with Mark (aka Markdown, RST, whatnot): this is the time to go pester the author of your favorite editor for Zotero integration!
-Editor integration vim Graciously supplied by David Lukes:
-paste it in your .</description>
-    </item>
-    
-    <item>
-      <title>Frequently Asked Questions</title>
-      <link>/zotero-better-bibtex/support/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/support/faq/</guid>
-      <description>Are there any plans to support Firefox 57+? BBT lives where Zotero lives, and Zotero only has standalone these days. BBT is installed inside Zotero instead of in the browser. Please see the installation instructions to get started with BBT.
-BBT is changing the capitalization of my titles &amp;ndash; why? There isn&amp;rsquo;t a straightforward one-to-one mapping for all Zotero to Bib(La)TeX fields. For most I can make reasonable choices, but there are some things where Better BibTeX takes a little more liberties with your references in order to get sensible output.</description>
-    </item>
-    
-    <item>
-      <title>Performance</title>
-      <link>/zotero-better-bibtex/support/performance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/support/performance/</guid>
-      <description>The Better BibTeX exporters are a lot slower than the standard Zotero Bib(La)TeX exporters. If you have a small library, you will not likely notice this, but if you have several thousand references, and you are in the habit of exporting substantial parts of your library, this gets annoying really fast.
-To deal with this problem, Better BibTeX implements an extensive caching system. With a filled cache, Better BibTeX is substantially faster than the default Zotero exporters.</description>
-    </item>
-    
     <item>
       <title>Sponsoring BBT</title>
-      <link>/zotero-better-bibtex/sponsoring/</link>
+      <link>/zotero-better-bibtex/sponsoring/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/sponsoring/</guid>
-      <description>While the development needs of BBT are to a large extent covered by the generosity towards open-source developers of services such as github and travis, my development system does require the occasional upgrade; also, I enjoy getting the occasional frivolous tech-toy that I wouldn&amp;rsquo;t otherwise grant myself. While you should feel in no way obligated to pay for BBT, anything you can spare is very much appreciated. If you&amp;rsquo;d rather contribute a little bit each month (and a little means a lot) so I can save up for a replacement a year or so down the line, head on over to Patreon, but mind that Patreon takes a fairly large cut of what you give.</description>
+      <guid>/zotero-better-bibtex/sponsoring/index.html</guid>
+      <description>While the development needs of BBT are to a large extent covered by the generosity towards open-source developers of services such as github, my development system does require the occasional upgrade; also, I enjoy getting the occasional frivolous tech-toy that I wouldn’t otherwise grant myself. While you should feel in no way obligated to pay for BBT, anything you can spare is very much appreciated. If you’d rather contribute a little bit each month (and a little means a lot) so I can save up for a replacement a year or so down the line, head on over to Patreon, but mind that Patreon takes a fairly large cut of what you give.</description>
     </item>
-    
-    <item>
-      <title>Translations</title>
-      <link>/zotero-better-bibtex/support/translations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zotero-better-bibtex/support/translations/</guid>
-      <description>BBT is currently available in English, German and French. You can help out by adding new translations or fixing existing ones on Crowdin.</description>
-    </item>
-    
   </channel>
 </rss>

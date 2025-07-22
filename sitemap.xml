@@ -1,141 +1,135 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/zotero-better-bibtex/installation/</loc>
+    <loc>/zotero-better-bibtex/installation/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/exporting/</loc>
+    <loc>/zotero-better-bibtex/exporting/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/citing/</loc>
+    <loc>/zotero-better-bibtex/citing/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/exporting/auto/</loc>
+    <loc>/zotero-better-bibtex/exporting/auto/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/support/</loc>
+    <loc>/zotero-better-bibtex/citing/cayw/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/</loc>
+    <loc>/zotero-better-bibtex/support/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/exporting/pull/</loc>
+    <loc>/zotero-better-bibtex/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/exporting/scripting/</loc>
+    <loc>/zotero-better-bibtex/support/faq/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/exporting/advanced/</loc>
+    <loc>/zotero-better-bibtex/exporting/pandoc/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/installation/preferences/</loc>
+    <loc>/zotero-better-bibtex/citing/migrating/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/installation/preferences/citation-keys/</loc>
+    <loc>/zotero-better-bibtex/exporting/pull/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/installation/preferences/export/</loc>
+    <loc>/zotero-better-bibtex/support/performance/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/installation/preferences/advanced/</loc>
+    <loc>/zotero-better-bibtex/citing/aux-scanner/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/installation/preferences/hidden-preferences/</loc>
+    <loc>/zotero-better-bibtex/exporting/scripting/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/installation/bundled-translators/</loc>
+    <loc>/zotero-better-bibtex/support/translations/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/automatic-export/</loc>
+    <loc>/zotero-better-bibtex/exporting/extra-fields/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/citing/aux-scanner/</loc>
+    <loc>/zotero-better-bibtex/support/tests/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/cache/</loc>
+    <loc>/zotero-better-bibtex/exporting/unicode/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/categories/</loc>
+    <loc>/zotero-better-bibtex/exporting/advanced/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/citation-keys/</loc>
+    <loc>/zotero-better-bibtex/installation/preferences/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/citing/cayw/</loc>
+    <loc>/zotero-better-bibtex/installation/preferences/export/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/cite-as-you-write/</loc>
+    <loc>/zotero-better-bibtex/installation/preferences/automatic-export/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/configuration/</loc>
+    <loc>/zotero-better-bibtex/installation/preferences/import/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/export/</loc>
+    <loc>/zotero-better-bibtex/exporting/json-rpc/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/support/faq/</loc>
+    <loc>/zotero-better-bibtex/installation/preferences/miscellaneous/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/git/</loc>
+    <loc>/zotero-better-bibtex/installation/preferences/hidden-preferences/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/import/</loc>
+    <loc>/zotero-better-bibtex/installation/bundled-translators/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/overleaf/</loc>
+    <loc>/zotero-better-bibtex/tags/automatic-export/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/support/performance/</loc>
+    <loc>/zotero-better-bibtex/tags/cache/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/preferences/</loc>
+    <loc>/zotero-better-bibtex/categories/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/scripting/</loc>
+    <loc>/zotero-better-bibtex/tags/citation-keys/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/sponsoring/</loc>
+    <loc>/zotero-better-bibtex/tags/cite-as-you-write/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/tags/</loc>
+    <loc>/zotero-better-bibtex/tags/configuration/index.html</loc>
   </url>
-  
   <url>
-    <loc>/zotero-better-bibtex/support/translations/</loc>
+    <loc>/zotero-better-bibtex/tags/export/index.html</loc>
   </url>
-  
+  <url>
+    <loc>/zotero-better-bibtex/citing/formulas/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/git/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/import/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/libreoffice/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/overleaf/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/preferences/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/scripting/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/sponsoring/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/index.html</loc>
+  </url>
+  <url>
+    <loc>/zotero-better-bibtex/tags/word/index.html</loc>
+  </url>
 </urlset>
